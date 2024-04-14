@@ -1,0 +1,10 @@
+
+
+python -c 'import pty;pty.spawn("/bin/bash")'
+
+#Colour 
+PS1='\[\e[1;32m\]\u@\h \[\e[0m\]\w\$ '
+
+
+#SUID files
+ find / -user root -perm -4000 -exec ls -ldb {} \;

